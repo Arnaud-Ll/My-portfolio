@@ -12,7 +12,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="text-sm text-gray-400"
         >
-          © 2024 John Doe. Crafting insights, one dataset at a time.
+          © 2025 Arnaud Leleu. Convertit vos données en stratégies gagnantes.
         </motion.p>
         
         <motion.div
@@ -21,7 +21,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="flex items-center justify-center gap-2 mt-4 text-sm text-gray-500"
         >
-          Made with <Heart className="w-4 h-4 text-pink-500 dark:text-blue-500" /> using modern tech
+          Fait avec <Heart className="w-4 h-4 text-pink-500 dark:text-blue-500" /> et pas mal d'IA
         </motion.div>
       </div>
     </footer>

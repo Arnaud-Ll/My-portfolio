@@ -16,9 +16,9 @@ const timelineData = [
     description: 'Developed predictive models with 95% accuracy',
   },
   {
-    year: '2019',
-    title: 'Junior Analyst',
-    company: 'StartUp Inc',
+    year: '2014',
+    title: 'Comptable',
+    company: 'Orléans Gestion',
     description: 'Automated reporting processes saving 20 hours weekly',
   },
 ];

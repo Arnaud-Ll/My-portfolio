@@ -40,7 +40,7 @@ const Projects = () => {
     <section className="py-20 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-16 text-pink-500 dark:text-blue-500">
-          Featured Projects
+          Mes projets
         </h2>
 
         {/* Featured Project */}
@@ -77,7 +77,7 @@ const Projects = () => {
                   className="inline-flex items-center gap-2 px-4 py-2 bg-pink-500 dark:bg-blue-500 rounded-full text-white font-medium hover:bg-pink-600 dark:hover:bg-blue-600 transition-colors"
                   whileHover={{ scale: 1.05 }}
                 >
-                  View Project
+                  Voir le projet
                   <ExternalLink className="w-4 h-4" />
                 </motion.a>
               </div>

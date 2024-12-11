@@ -24,7 +24,7 @@ const Header = () => {
         </div>
       </motion.div>
 
-      <h1 className="text-4xl font-bold mb-4 mt-8">John Doe</h1>
+      <h1 className="text-4xl font-bold mb-4 mt-8">Arnaud Leleu</h1>
       
       <TypewriterEffect words={['Data', 'Business', 'Simplifier']} />
 
@@ -33,13 +33,13 @@ const Header = () => {
           whileHover={{ y: -2, boxShadow: '0 10px 25px -5px rgba(236, 72, 153, 0.4)' }}
           className="px-6 py-2 bg-gradient-to-r from-pink-500 to-pink-600 dark:from-blue-500 dark:to-blue-600 rounded-full text-white font-semibold"
         >
-          My Projects
+          Mes projets
         </motion.button>
         <motion.button
           whileHover={{ y: -2, boxShadow: '0 10px 25px -5px rgba(236, 72, 153, 0.4)' }}
           className="px-6 py-2 bg-gradient-to-r from-pink-500 to-pink-600 dark:from-blue-500 dark:to-blue-600 rounded-full text-white font-semibold"
         >
-          Contact Me
+          Contactez-moi
         </motion.button>
       </div>
 

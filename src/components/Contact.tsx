@@ -12,14 +12,14 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = `mailto:banananannaannana@gmailbananana.com?subject=Contact from ${formData.name}&body=${formData.message}`;
+    window.location.href = `mailto:arn.leleu@gmail.com?subject=Prtfolio contact from ${formData.name}&body=${formData.message}`;
   };
 
   return (
     <section className="py-20 px-4 md:px-8 relative">
       <div className="max-w-4xl mx-auto relative">
         <h2 className="text-3xl font-bold text-center mb-16 text-pink-500 dark:text-blue-500">
-          Get in Touch
+          Un projet, une question, contactez-moi !
         </h2>
 
         <motion.form
@@ -31,7 +31,7 @@ const Contact = () => {
         >
           <div>
             <label htmlFor="name" className="block text-sm font-medium mb-2">
-              Your Name
+              Votre nom
             </label>
             <input
               type="text"
@@ -45,7 +45,7 @@ const Contact = () => {
 
           <div>
             <label htmlFor="email" className="block text-sm font-medium mb-2">
-              Your Email
+              Votre email
             </label>
             <input
               type="email"
@@ -59,7 +59,7 @@ const Contact = () => {
 
           <div>
             <label htmlFor="message" className="block text-sm font-medium mb-2">
-              Your Message
+              Votre message
             </label>
             <textarea
               id="message"
@@ -73,7 +73,7 @@ const Contact = () => {
 
           <div>
             <label htmlFor="captcha" className="block text-sm font-medium mb-2">
-              What is 2 + 3? (Anti-spam)
+              Combien font 2 + 3? (Anti-spam)
             </label>
             <input
               type="text"
@@ -91,7 +91,7 @@ const Contact = () => {
             whileTap={{ scale: 0.98 }}
             className="w-full px-6 py-3 bg-gradient-to-r from-pink-500 to-pink-600 dark:from-blue-500 dark:to-blue-600 rounded-lg text-white font-semibold flex items-center justify-center gap-2 hover:from-pink-600 hover:to-pink-700 dark:hover:from-blue-600 dark:hover:to-blue-700 transition-colors shadow-lg"
           >
-            Send Message
+            Envoyez votre message
             <Send className="w-4 h-4" />
           </motion.button>
         </motion.form>

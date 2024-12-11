@@ -23,7 +23,7 @@ const About: React.FC = () => {
         </h2>
         
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-semibold mb-6">Experience Journey</h3>
+          <h3 className="text-2xl font-semibold mb-6">Mon parcours</h3>
           <Timeline />
         </div>
       </motion.div>
