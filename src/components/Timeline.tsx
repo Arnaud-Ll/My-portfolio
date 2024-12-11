@@ -4,22 +4,22 @@ import { useInView } from 'react-intersection-observer';
 
 const timelineData = [
   {
-    year: '2023',
-    title: 'Senior Data Analyst',
-    company: 'Tech Corp',
-    description: 'Led data-driven initiatives resulting in 30% efficiency improvement',
+    year: '2024',
+    title: 'Business Analyst / Data Analyst',
+    company: '-',
+    description: 'Reconversion professionnelle, acquisition de compétences métier et développement de projets professionnels',
   },
   {
-    year: '2021',
-    title: 'Data Analyst',
-    company: 'Innovation Labs',
-    description: 'Developed predictive models with 95% accuracy',
+    year: '2020',
+    title: 'Responsable d\'exploitation',
+    company: 'Orléans Spectacles puis Orléans Events',
+    description: 'Développement commercial, modernisation des process, mise en œuvre de solutions budgétaires automatisées',
   },
   {
     year: '2014',
     title: 'Comptable',
     company: 'Orléans Gestion',
-    description: 'Automated reporting processes saving 20 hours weekly',
+    description: 'Conception et suivi de tableaux de bords automatisés, gain de temps significatif dans le traitement des données pour plusieurs collaborateurs',
   },
 ];
 

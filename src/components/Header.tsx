@@ -17,7 +17,7 @@ const Header = () => {
         <div className="absolute -inset-20 bg-gradient-to-r from-pink-500/30 to-pink-600/30 dark:from-blue-500/30 dark:to-blue-600/30 rounded-full blur-2xl" />
         <div className="w-40 h-40 rounded-full overflow-hidden ring-4 ring-pink-500 dark:ring-blue-500 ring-opacity-50 relative">
           <img
-            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=800"
+            src="https://media.licdn.com/dms/image/v2/D4E03AQHUj08A1lLZkQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671124781201?e=1739404800&v=beta&t=4VPWRvrsHuhrq2CzNOCp99c3lRkDNEYs4REyzSK3HHY"
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -26,7 +26,7 @@ const Header = () => {
 
       <h1 className="text-4xl font-bold mb-4 mt-8">Arnaud Leleu</h1>
       
-      <TypewriterEffect words={['Data', 'Business', 'Simplifier']} />
+      <TypewriterEffect words={['Business Analyst', 'Data Analyst', 'Organisateur de données', 'Accompagnateur de vos prises de décisions']} />
 
       <div className="flex gap-4 mt-8">
         <motion.button
@@ -45,7 +45,7 @@ const Header = () => {
 
       <div className="flex gap-6 mt-8">
         <motion.a
-          href="https://linkedin.com/bananananannana"
+          href="https://www.linkedin.com/in/arnaud-leleu/"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1, rotate: 5 }}
@@ -53,7 +53,7 @@ const Header = () => {
           <Linkedin className="w-8 h-8 text-pink-500 dark:text-blue-500" />
         </motion.a>
         <motion.a
-          href="https://github.io/bananannanananan"
+          href="https://github.com/Arnaud-Ll"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1, rotate: -5 }}

@@ -52,7 +52,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           className="inline-flex items-center gap-2 text-pink-500 dark:text-blue-500 hover:underline"
           whileHover={{ x: 5 }}
         >
-          View Project
+          Voir le projet
           <ExternalLink className="w-4 h-4" />
         </motion.a>
       </div>

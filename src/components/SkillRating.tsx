@@ -8,14 +8,13 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: 'Data Analysis', level: 5 },
-  { name: 'Python', level: 4.5 },
-  { name: 'SQL', level: 5 },
+  { name: 'Data Analyse', level: 5 },
+  { name: 'Python', level: 3.5 },
+  { name: 'SQL', level: 4 },
   { name: 'Power BI', level: 4.5 },
   { name: 'Machine Learning', level: 4 },
-  { name: 'Data Visualization', level: 5 },
-  { name: 'Statistical Analysis', level: 4.5 },
-  { name: 'ETL Processes', level: 4 },
+  { name: 'Data Visualization', level: 4.5 },
+  { name: 'Excel', level: 5 },
 ];
 
 const SkillRating: React.FC = () => {

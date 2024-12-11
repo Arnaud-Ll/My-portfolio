@@ -5,10 +5,10 @@ import SkillRating from './SkillRating';
 import { Users2, Brain, Lightbulb, Target } from 'lucide-react';
 
 const softSkills = [
-  { icon: Users2, label: 'Team Leadership' },
-  { icon: Brain, label: 'Problem Solving' },
-  { icon: Lightbulb, label: 'Innovation' },
-  { icon: Target, label: 'Strategic Thinking' },
+  { icon: Users2, label: 'Gestion de projet' },
+  { icon: Brain, label: 'Esprit d\'équipe' },
+  { icon: Lightbulb, label: 'Résolution de problèmes' },
+  { icon: Target, label: '10 ans d\'expérience métier' },
 ];
 
 const Skills: React.FC = () => {
@@ -27,12 +27,12 @@ const Skills: React.FC = () => {
         className="max-w-6xl mx-auto"
       >
         <h2 className="text-3xl font-bold text-center mb-16 text-pink-500 dark:text-blue-500">
-          Skills & Expertise
+          Compétences & expertises
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">Core Competencies</h3>
+            <h3 className="text-2xl font-semibold mb-6">Expertises</h3>
             <div className="grid grid-cols-2 gap-6">
               {softSkills.map((Skill, index) => (
                 <motion.div
@@ -48,7 +48,7 @@ const Skills: React.FC = () => {
           </div>
           
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">Technical Skills</h3>
+            <h3 className="text-2xl font-semibold mb-6">Compétences techniques</h3>
             <SkillRating />
           </div>
         </div>
