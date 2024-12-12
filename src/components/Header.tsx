@@ -5,6 +5,13 @@ import { TypewriterEffect } from './TypewriterEffect';
 import ThemeToggle from './ThemeToggle';
 
 const Header = () => {
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <header className="relative min-h-screen flex flex-col items-center justify-center px-4">
       <ThemeToggle className="absolute top-4 right-4" />
