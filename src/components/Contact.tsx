@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MessageSquare, Send } from 'lucide-react';
+import { Send } from 'lucide-react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -10,9 +11,42 @@ const Contact = () => {
     captcha: '',
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = `mailto:arn.leleu@gmail.com?subject=Prtfolio contact from ${formData.name}&body=${formData.message}`;
+
+    if (formData.captcha !== '42') {
+      alert('Captcha incorrect ! Merci de réessayer.');
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    emailjs
+      .send(
+        'service_x8d2a4i', // Replace with your EmailJS service ID
+        'template_o0n0hrg', // Replace with your EmailJS template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        '1f_LnI8N68ddJMyty' // Replace with your EmailJS user ID
+      )
+      .then(
+        () => {
+          alert('Message bien envoyé !');
+          setFormData({ name: '', email: '', message: '', captcha: '' });
+        },
+        (error) => {
+          console.error('Le message n\'a pas été envoyé', error);
+          alert('Impossible d\'envoyer votre message, veuillez vérifier les informations saisies ou réessayez ultérieurement');
+        }
+      )
+      .finally(() => {
+        setIsSubmitting(false);
+      });
   };
 
   return (
@@ -73,7 +107,7 @@ const Contact = () => {
 
           <div>
             <label htmlFor="captcha" className="block text-sm font-medium mb-2">
-              Combien font 2 + 3? (Anti-spam)
+              Combien font 4 + 38 ? (Anti-spam)
             </label>
             <input
               type="text"
@@ -90,8 +124,9 @@ const Contact = () => {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="w-full px-6 py-3 bg-gradient-to-r from-pink-500 to-pink-600 dark:from-blue-500 dark:to-blue-600 rounded-lg text-white font-semibold flex items-center justify-center gap-2 hover:from-pink-600 hover:to-pink-700 dark:hover:from-blue-600 dark:hover:to-blue-700 transition-colors shadow-lg"
+            disabled={isSubmitting}
           >
-            Envoyez votre message
+            {isSubmitting ? 'Envoi en cours...' : 'Envoyez votre message'}
             <Send className="w-4 h-4" />
           </motion.button>
         </motion.form>
