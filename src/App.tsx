@@ -20,8 +20,8 @@ function App() {
       <Header />
       <About />
       <Skills />
-      <Projects id="Projects" />
-      <Contact id="Contact" />
+      <Projects id="projects" />
+      <Contact id="contact" />
       <Footer />
     </div>
   );

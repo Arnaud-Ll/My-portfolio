@@ -51,14 +51,14 @@ const Header = () => {
         <motion.button
           whileHover={{ y: -2, boxShadow: '0 10px 25px -5px rgba(236, 72, 153, 0.4)' }}
           className="px-6 py-2 bg-gradient-to-r from-pink-500 to-pink-600 dark:from-blue-500 dark:to-blue-600 rounded-full text-white font-semibold"
-          onClick={() => scrollToSection('Projects')}
+          onClick={() => scrollToSection('projects')}
         >
           Mes projets
         </motion.button>
         <motion.button
           whileHover={{ y: -2, boxShadow: '0 10px 25px -5px rgba(236, 72, 153, 0.4)' }}
           className="px-6 py-2 bg-gradient-to-r from-pink-500 to-pink-600 dark:from-blue-500 dark:to-blue-600 rounded-full text-white font-semibold"
-          onClick={() => scrollToSection('Contact')}
+          onClick={() => scrollToSection('contact')}
         >
           Contactez-moi
         </motion.button>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import ProjectCard from './ProjectCard';
 
 const featuredProject = {
@@ -37,7 +37,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="py-20 px-4 md:px-8">
+    <section id="projects" className="py-20 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-16 text-pink-500 dark:text-blue-500">
           Mes projets
