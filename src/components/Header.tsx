@@ -9,13 +9,17 @@ const Header = () => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      console.error(`No section found with id: ${id}`);
     }
   };
 
   return (
     <header className="relative min-h-screen flex flex-col items-center justify-center px-4">
+      {/* Theme toggle button */}
       <ThemeToggle className="absolute top-4 right-4" />
-      
+
+      {/* Profile Image with Motion Effects */}
       <motion.div
         initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -31,10 +35,18 @@ const Header = () => {
         </div>
       </motion.div>
 
+      {/* Name and Typewriter Effect */}
       <h1 className="text-4xl font-bold mb-4 mt-8">Arnaud Leleu</h1>
-      
-      <TypewriterEffect words={['Business Analyst', 'Data Analyst', 'Organisateur de données', 'Accompagnateur de vos prises de décisions']} />
+      <TypewriterEffect
+        words={[
+          'Business Analyst',
+          'Data Analyst',
+          'Organisateur de données',
+          'Accompagnateur de vos prises de décisions',
+        ]}
+      />
 
+      {/* Buttons for Navigation */}
       <div className="flex gap-4 mt-8">
         <motion.button
           whileHover={{ y: -2, boxShadow: '0 10px 25px -5px rgba(236, 72, 153, 0.4)' }}
@@ -52,6 +64,7 @@ const Header = () => {
         </motion.button>
       </div>
 
+      {/* Social Media Icons */}
       <div className="flex gap-6 mt-8">
         <motion.a
           href="https://www.linkedin.com/in/arnaud-leleu/"
@@ -71,6 +84,7 @@ const Header = () => {
         </motion.a>
       </div>
 
+      {/* Animated Pointer */}
       <motion.div
         animate={{
           y: [0, 10, 0],
