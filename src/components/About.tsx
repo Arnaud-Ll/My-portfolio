@@ -21,8 +21,7 @@ const About: React.FC = () => {
         <h2 className="text-3xl font-bold text-center mb-16 text-pink-500 dark:text-blue-500">
           A propos de moi
         </h2>
-
-        {/* New section added here */}
+        
         <div className="max-w-4xl mx-auto mb-16">
           <div className="text-sm text-gray-300 space-y-4">
             <p>
@@ -46,7 +45,6 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        {/* Timeline section */}
         <div className="max-w-4xl mx-auto">
           <h3 className="text-2xl font-semibold mb-6">Mon parcours</h3>
           <Timeline />
