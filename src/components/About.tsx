@@ -25,22 +25,16 @@ const About: React.FC = () => {
         <div className="max-w-4xl mx-auto mb-16">
           <div className="text-sm text-gray-300 space-y-4">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat ultricies felis,
-              ac vehicula arcu tempus eu. Fusce eget suscipit turpis, ut aliquet tortor. Ut quis
-              sollicitudin neque. Mauris sed orci ut nunc suscipit viverra. Curabitur faucibus
-              fermentum diam, at auctor odio interdum id.
+            Analyste de données avec un regard unique, je combine expertise opérationnelle et vision stratégique pour transformer les données en décisions impactantes.
             </p>
             <p>
-              Phasellus suscipit, ligula ut fermentum vestibulum, dui arcu fermentum ipsum, ac
-              convallis orci urna sed eros. Nulla tristique vulputate leo ac volutpat. Nulla nec
-              ligula ut ligula aliquet pretium. Nulla facilisi. Suspendisse potenti. In ac lacus
-              nec ligula auctor viverra. Nam bibendum laoreet est, sed tempus felis.
+            Mon parcours atypique m’a appris à détecter les opportunités, résoudre les inefficacités et piloter des projets complexes, toujours avec un objectif : maximiser la performance.
             </p>
             <p>
-              Sed at felis sit amet metus feugiat tempor vel vel justo. Mauris vel ante viverra,
-              tincidunt enim sit amet, vulputate risus. Sed vestibulum nisl in sapien euismod
-              faucibus. In euismod augue eu diam sollicitudin iaculis. Integer sit amet dolor sit
-              amet libero laoreet iaculis.
+            Je ne me limite pas aux chiffres. Mon expérience terrain me permet d’aller au-delà des analyses classiques pour révéler des insights clés et proposer des solutions concrètes, adaptées à vos besoins.
+            </p>
+            <p>
+            Avec moi, vos données deviendront un levier puissant pour une transformation durable et mesurable.
             </p>
           </div>
         </div>
