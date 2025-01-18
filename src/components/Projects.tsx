@@ -14,14 +14,14 @@ const featuredProject = {
 const projects = [
   {
     title: 'FVH Company',
-    description: 'Création d\'une base de données de + de 12 000 000 de lignes en python pour l\'analyse de données',
+    description: 'Création d\'une base de données de + de 12 000 000 de lignes en python pour l\'analyse de données, déjà téléchargée plus de 100 fois',
     image: 'https://res.cloudinary.com/dmtfnhvn6/image/upload/v1737210724/FVH_Company_Logo_trvhiq.jpg',
     tags: ['Python', 'Dataset '],
     link: 'https://www.kaggle.com/datasets/arnaudleleu/fvh-fruits-and-vegetables-and-herbs-selling-company',
   },
   {
     title: 'IBM HR Attrition',
-    description: 'Analyse du turn-over sur cette base de données RH créée par les Data Scientists d\'IBM',
+    description: 'Analyse du turn-over sur une base de données RH créée par les Data Scientists d\'IBM',
     image: 'https://img.freepik.com/vecteurs-libre/illustration-concept-rejetee_114360-23764.jpg?t=st=1737214634~exp=1737218234~hmac=2519dd3c044772692a9daebbf46883b4227c8a76131ecabd9e728d9b0dd2ac17&w=1800',
     tags: ['PowerBI', 'Dataviz', 'RH'],
     link: 'https://github.com/Arnaud-Ll/My-portfolio/tree/main/assets/IBM_HR_Dashboard.pdf',

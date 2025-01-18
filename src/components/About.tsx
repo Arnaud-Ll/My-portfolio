@@ -25,10 +25,10 @@ const About: React.FC = () => {
         <div className="max-w-4xl mx-auto mb-16">
           <div className="text-sm text-gray-300 space-y-4">
             <p>
-            Analyste de données avec un regard unique, je combine expertise opérationnelle et vision stratégique pour transformer les données en décisions impactantes.
+            Analyste de données avec 10 ans d'expérience dans des domaines différents, je combine expertise opérationnelle et vision stratégique pour transformer les données en décisions impactantes.
             </p>
             <p>
-            Mon parcours atypique m’a appris à détecter les opportunités, résoudre les inefficacités et piloter des projets complexes, toujours avec un objectif : maximiser la performance.
+            Mon parcours atypique m’a appris à détecter les opportunités, réduire les inefficacités et piloter des projets complexes, toujours avec un objectif : maximiser la performance.
             </p>
             <p>
             Je ne me limite pas aux chiffres. Mon expérience terrain me permet d’aller au-delà des analyses classiques pour révéler des insights clés et proposer des solutions concrètes, adaptées à vos besoins.
