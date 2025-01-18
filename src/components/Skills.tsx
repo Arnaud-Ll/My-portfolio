@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import SkillRating from './SkillRating';
-import { Users2, Brain, Lightbulb, Target } from 'lucide-react';
+import { brain-circuit, Handshake, Lightbulb, Target } from 'lucide-react';
 
 const softSkills = [
-  { icon: Users2, label: 'Gestion de projet' },
-  { icon: Brain, label: 'Esprit d\'équipe' },
+  { icon: brain-circuit, label: 'Gestion de projet' },
+  { icon: Handshake, label: 'Esprit d\'équipe' },
   { icon: Lightbulb, label: 'Résolution de problèmes' },
   { icon: Target, label: '10 ans d\'expérience métier' },
 ];

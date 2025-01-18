@@ -127,7 +127,7 @@ const Contact = () => {
           {/* Captcha Field */}
           <div>
             <label htmlFor="captcha" className="block text-sm font-medium mb-2">
-              Quelle est la réponse à la vie, l'univers et tout le reste ?
+              Combien font 3 + 39 (anti-spam) ?
             </label>
             <input
               type="text"

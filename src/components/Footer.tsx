@@ -21,7 +21,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="flex items-center justify-center gap-2 mt-4 text-sm text-gray-500"
         >
-          Fait avec <Heart className="w-4 h-4 text-pink-500 dark:text-blue-500" /> et pas mal d'IA
+          Fait par mes soins avec <Heart className="w-4 h-4 text-pink-500 dark:text-blue-500" /> (et aussi pas mal d'IA)
         </motion.div>
       </div>
     </footer>

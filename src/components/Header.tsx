@@ -28,7 +28,7 @@ const Header = () => {
         <div className="absolute -inset-20 bg-gradient-to-r from-pink-500/30 to-pink-600/30 dark:from-blue-500/30 dark:to-blue-600/30 rounded-full blur-2xl" />
         <div className="w-40 h-40 rounded-full overflow-hidden ring-4 ring-pink-500 dark:ring-blue-500 ring-opacity-50 relative bg-gray-300">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4E03AQHUj08A1lLZkQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671124781201?e=1739404800&v=beta&t=4VPWRvrsHuhrq2CzNOCp99c3lRkDNEYs4REyzSK3HHY"
+            src="https://res.cloudinary.com/dmtfnhvn6/image/upload/v1734089099/Photo_profil_nhlttt.jpg"
             alt="Profile"
             className="w-full h-full object-cover"
             width="160"
@@ -69,7 +69,7 @@ const Header = () => {
       </div>
 
       {/* Social Media Icons */}
-      <div className="flex gap-6 mt-8">
+      <div className="flex gap-6 mt-8 justify-center">
         <motion.a
           href="https://www.linkedin.com/in/arnaud-leleu/"
           target="_blank"
