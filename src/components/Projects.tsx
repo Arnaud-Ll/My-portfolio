@@ -4,20 +4,20 @@ import { ExternalLink } from 'lucide-react';
 import ProjectCard from './ProjectCard';
 
 const featuredProject = {
-  title: 'Data Visualization Dashboard',
-  description: 'Interactive dashboard built with Power BI and Python, processing over 1M records daily',
-  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200',
-  tags: ['Power BI', 'Python', 'SQL'],
-  link: 'https://bana1.com',
+  title: 'Bank marketing',
+  description: 'Utiliser la dataviz et le machine learning pour prévoir et optimiser les résultats de la campagne marketing d\'une banque',
+  image: 'https://res.cloudinary.com/dmtfnhvn6/image/upload/v1737205891/BANK%20MARKETING%20PROJECT.png',
+  tags: ['Python', 'Machine Learning', 'Streamlit', 'Projet d\'équipe'],
+  link: 'https://les4datafantastiques.streamlit.app/',
 };
 
 const projects = [
   {
-    title: 'Predictive Analytics Tool',
-    description: 'Machine learning model for customer behavior prediction',
+    title: 'FVH Company',
+    description: 'Création d\'une base de données de + de 12 000 000 de lignes en python pour l\'analyse de données',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800',
-    tags: ['Python', 'TensorFlow', 'SQL'],
-    link: 'https://bana2.com',
+    tags: ['Python', 'Dataset '],
+    link: 'https://www.kaggle.com/datasets/arnaudleleu/fvh-fruits-and-vegetables-and-herbs-selling-company',
   },
   {
     title: 'Automated Reporting System',
